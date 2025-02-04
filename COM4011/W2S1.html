@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV Website Example</title>
+        <style>
+            body{
+                background-color:lightslategray;
+            }
+            .section{
+                background-color:lavender;
+                margin: 1%;
+                padding: 2%;
+                border: 4px solid rgba(0, 0, 0, 0.5);
+            }
+            td, th{
+                vertical-align: top;
+            }
+            #personalDetails, #contacts{
+                margin-bottom: auto;
+                margin-top: auto;
+            }
+            a:hover{
+                color: orange;
+            }
+            li{
+                list-style-position:inside;
+                background-color: rgba(0, 0, 0, 0.1);
+                border: 3px solid rgba(255, 255, 255, 0.1);
+                margin: 2px;
+                padding: 2px;
+            }
+            li > p{
+                text-indent: 25px;
+            }
+            p{
+                text-indent: 2%;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td width="60%">
+                    <div class="section" id="personalDetails">
+                        <h1>John Doe</h1><hr>
+                        <h3>Job Position</h3>
+                    </div>
+                    <hr>
+                    <div class="section" id="personalStatement">
+                        <h2>Personal Statement</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <hr>
+                    <div class="section" id="workExperience">
+                        <h2>Work Experience</h2>
+                        <ul id="Work Experience">
+                            <li>Place of Work  -  Years of Work<p>Job Position</p><p>Notes</p></li>
+                            <li>Place of Work  -  Years of Work<p>Job Position</p><p>Notes</p></li>
+                            <li>Place of Work  -  Years of Work<p>Job Position</p><p>Notes</p></li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="section" id="education">
+                        <h2>Education</h2>
+                        <ul id="Education">
+                            <li>Place of Education  -  Years of Study<p>Qualifications Earned</p></li>
+                            <li>Place of Education  -  Years of Study<p>Qualifications Earned</p></li>
+                        </ul>
+                    </div>
+                </td>
+                <td width="30%" >
+                    <div class="section" id="contacts">
+                        <h2>Contacts</h2>
+                        <ul id="Contacts">
+                            <li>EMail : <a href="mailto:fakeemail@fake.mail">fakeemail@fake.mail</a></li>
+                            <li>Contact Method : Contact Address</li>
+                            <li>Contact Method : Contact Address</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="section" id="skills">
+                        <h2>Skills</h2>
+                        <ul id="Skills">
+                            <li>generic skill 1<p>Skill Description or Notes</p></li>
+                            <li>generic skill 2<p>Skill Description or Notes</p></li>
+                            <li>generic skill 3<p>Skill Description or Notes</p></li>
+                            <li>generic skill 4<p>Skill Description or Notes</p></li>
+                            <li>generic skill 5<p>Skill Description or Notes</p></li>
+                            
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,175 @@
+:root{
+    --bg0 :     #282828;
+    --bg1 :     #3c3836;
+    --bg2 :     #504945;
+    --bg3 :     #665c54;
+    --fg0 :     #d5c4a1;
+    --fg1 :     #bdae93;
+    --fg2 :     #a89984;
+    --fg3 :     #7c6f64;
+    --gray :    #928374;
+    --red :     #fb4934;
+    --green :   #b8bb26;
+    --yellow :  #fabd2f;
+    --blue :    #83a598;
+    --purple :  #d3869b;
+    --aqua :    #8ec07c;
+    --orange :  #fe8019;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.borderlessCell {
+    border-style: hidden;
+}
+
+table, td, th .mapTable {
+    border: 1px solid var(--bg2);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table .mapTable {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+li a {
+    display: block;
+    background-color: var(--bg0);
+    padding: 10%;
+    margin-bottom: 0.5vh;
+    width: 8vw;
+    border: 1px solid var(--bg2);
+  }
+
+li a:hover {
+    background-color: var(--bg1);
+  }
+
+#navbar a{
+    text-decoration: none;
+}
+
+.onPage{
+    background-color: var(--bg1);
+}
+
+#viewbox {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#viewContainer {
+   float: right;
+   width: 80vw;	
+}
+
+nav {
+    margin: 0;
+    background-color: var(--bg0);
+    border-right: 2px solid var(--bg2);
+    float: left;
+    height: 100vh;
+    position: fixed;
+    padding: 2.5vw;
+    padding-left: 1vw;
+    visibility: visible;
+    top: 0;
+    left: 0;
+    transition: all 1s ease;
+    text-align: center;
+}
+
+body{
+    overflow: hidden;
+    background-color: var(--bg0);
+    margin: 0;
+    color: var(--fg3);
+}
+
+a{
+    color: var(--aqua)
+}
+
+a:active{
+    color: var(--red);
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--orange);
+}
+
+p{
+    color: var(--fg3);
+}
+
+.content{
+    margin: 20vw;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    padding: 3vw;
+    border: 1px solid var(--bg2);
+    border-radius: 5px;
+}
+
+#navShow{
+    display: block;
+    border-radius: 5px;
+    padding: 0.5%;
+    margin: 0.5vw;
+    background-color: var(--bg1);
+    border: 1px solid var(--bg2);
+    position: fixed;
+    left: -15vw;
+    transition: all 1s ease;
+}
+
+form input{
+    display: block;
+    background-color: var(--bg1);
+    border: 2px solid var(--bg2);
+    margin: 0.4vh;
+    color: var(--fg2);
+    width: 80%;
+
+}
+
+form input:focus{
+    border: 2px solid var(--fg3);
+    outline: none;
+}
+
+form input[name="message"]{
+    height: 4vh;
+}
+form input[type="submit"]{
+    width: auto;
+}
+
+::selection {
+    background-color: var(--fg2);
+    color: var(--bg1);
+}
+
+button#enterance{
+    background-color: var(--bg1);
+    border-color: var(--fg3);
+    font-size: large;
+    display: block;
+    margin: auto;
+    padding: 1vw;
+}
+
+#backButton a{
+    text-decoration: none;
+}
